@@ -13,7 +13,7 @@
   "description": "A Max for Live device that automatically assigns colors to tracks based on instrument types",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DjRedflame/redflame-colorizer"
+    "url": "https://github.com/djredflame/redflame-colorizer.git"
   },
   "files": ["src", "dist", "colorize.amxd"],
   "devDependencies": {
