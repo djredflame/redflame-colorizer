@@ -1,5 +1,4 @@
 declare function defer(fn: () => void): void;
-declare var LiveAPI: any;
 
 declare class Task {
   constructor(callback: () => void);
