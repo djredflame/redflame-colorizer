@@ -1,5 +1,7 @@
 # Redflame Colorizer 🎛🔥
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 Redflame Colorizer is a minimal and powerful Max for Live device for Ableton Live that automatically assigns colors to your tracks based on instrument types.
 
 ## 🎯 What It Does
@@ -33,6 +35,12 @@ The mapping is customizable in the source code.
 ## 💡 Customization
 
 Want to change colors or extend the mappings? Open the `colorize.ts` file and edit the `colorMap` dictionary.
+
+## 📜 License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).  
+That means you are free to use and adapt the project for personal and educational purposes, but **not for commercial use**.  
+For full details, see the [LICENSE](LICENSE) file.
 
 ---
 
