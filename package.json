@@ -1,0 +1,22 @@
+{
+  "name": "redflame-colorizer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": ["ableton", "maxforlive", "colorizer", "track-color", "redflame"],
+  "author": "DjRedflame",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "A Max for Live device that automatically assigns colors to tracks based on instrument types",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DjRedflame/redflame-colorizer"
+  },
+  "files": ["src", "dist", "colorize.amxd"],
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

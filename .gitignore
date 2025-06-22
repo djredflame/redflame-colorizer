@@ -1,0 +1,15 @@
+# Ignore compiled JS and map files
+dist/
+*.js
+*.js.map
+
+# Ignore Node modules
+node_modules/
+
+# Ignore OS metadata
+.DS_Store
+
+# Ignore logs and temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
