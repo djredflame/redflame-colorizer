@@ -7,7 +7,6 @@ const observers: any[] = [];
 function makeCallback(trackIndex: number): (args: any[]) => void {
   return function callback(args: any[]) {
     if (args[0] === "name") {
-      post(`[Track ${trackIndex}] Name changed\n`);
       outlet(0, "bang");
     }
   };

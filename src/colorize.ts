@@ -1,4 +1,5 @@
 declare function defer(fn: () => void): void;
+declare function post(message: string): void;
 
 declare class Task {
   constructor(callback: () => void);
@@ -100,9 +101,27 @@ function colorize(): void {
       }
 
       const lower = typeof name === "string" ? name.toLowerCase() : "";
+      let assignedColor: number | undefined = undefined;
       for (const key in colorMap) {
-        if (typeof lower === "string" && lower.indexOf(key) !== -1) {
-          track.set("color_index", colorMap[key]);
+        if (lower.indexOf(key) !== -1) {
+          assignedColor = colorMap[key];
+          track.set("color_index", assignedColor);
+
+          const clipSlotsCount = track.getcount("clip_slots");
+          for (let j = 0; j < clipSlotsCount; j++) {
+            const clipSlot = new LiveAPI(
+              `live_set tracks ${i} clip_slots ${j}`
+            );
+            const hasClip = clipSlot.get("has_clip");
+            if (Array.isArray(hasClip) && hasClip[0] === 1) {
+              const clip = new LiveAPI(
+                `live_set tracks ${i} clip_slots ${j} clip`
+              );
+              if (clip && typeof clip.set === "function") {
+                clip.set("color_index", assignedColor);
+              }
+            }
+          }
           break;
         }
       }
