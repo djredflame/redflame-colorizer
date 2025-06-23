@@ -10,7 +10,7 @@ When you drop the device into your Live Set, it immediately scans all existing t
 
 ```
 - 🥁 Drums & Percussion → Red
-  `kick`, `snare`, `hihat`, `perc-low`, `clap`, `tambourine`, `cowbell`, `rimshot`, `snap`, `sticks`, `kick drum`, `snare drum`
+  `kick`, `snare`, `hihat`, `perc-low`, `clap`, `tambourine`, `cowbell`, `rimshot`, `snap`, `sticks`, `kick drum`, `snare drum`, `crash`, `ride`, `ride cymbal`, `crash cymbal`, `maracas`
 
 - 🎸 Plucked Strings → Sand Brown
   `guitar`, `harp`, `acoustic`, `electric guitar`, `nylon`, `slide`
