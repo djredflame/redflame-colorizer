@@ -6,7 +6,7 @@ Redflame Colorizer is a minimal and powerful Max for Live device for Ableton Liv
 
 ## 🎯 What It Does
 
-When you drop the device into your Live Set, it immediately scans all existing tracks and applies a color scheme based on their names. For example:
+When you drop the device into your Live Set, it immediately scans all existing tracks and clips, and applies a color scheme based on their names. For example:
 
 - `kick`, `snare`, `perc` → red
 - `bass`, `sub` → green
@@ -16,7 +16,7 @@ When you drop the device into your Live Set, it immediately scans all existing t
 - `vocal`, `voice` → orange
 - `fx`, `sfx`, `risers` → dark gray
 
-The mapping is customizable in the source code.
+Both tracks and clips (in Session View) will be colorized.
 
 ## ✅ How to Use
 
