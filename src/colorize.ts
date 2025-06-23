@@ -190,8 +190,6 @@ function colorize(): void {
       shamisen: 31,
       tabla: 31,
       djembe: 31,
-      conga: 31,
-      bongo: 31,
       "hang drum": 31,
       balafon: 31,
       berimbau: 31,
