@@ -45,6 +45,11 @@ function colorize(): void {
       drum: 14,
       "kick drum": 14,
       "snare drum": 14,
+      crash: 14,
+      ride: 14,
+      "ride cymbal": 14,
+      "crash cymbal": 14,
+      Maracas: 14,
 
       // Strings that are plucked (guitar family)
       guitar: 30,
