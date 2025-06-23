@@ -58,6 +58,30 @@ Both tracks and clips (in Session View) will be colorized.
 3. Boom — track names are analyzed and colored automatically.
 4. Rename any track — the color will update instantly.
 
+## 🚀 How to Install
+
+To clone and use this TypeScript-based color mapping logic in your own Max for Live project:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/djredflame/redflame-colorizer.git
+   ```
+2. Navigate into the project folder:
+   ```bash
+   cd redflame-colorizer
+   ```
+3. Install dependencies (only needed once):
+   ```bash
+   npm install
+   ```
+4. Open the project in VS Code or your preferred editor.
+
+5. Edit or extend the `colorMap` inside `colorize.ts` to customize track type detection.
+
+6. Open the `.amxd` Max for Live device with Max and integrate the updated logic if needed.
+
+> 💡 This repository is structured so that the TypeScript logic can be reused across different devices. You can also extract the mapping logic into your own `.amxd` project or device patch.
+
 ## 🧠 Why Use This?
 
 - Better visual overview of your session
