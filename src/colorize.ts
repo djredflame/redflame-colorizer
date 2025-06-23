@@ -49,9 +49,9 @@ function colorize(): void {
       sustain: 12,
 
       // Synthesizers used for melody and leads
-      lead: 7,
-      arp: 7,
-      melody: 7,
+      lead: 65,
+      arp: 65,
+      melody: 65,
       synth: 65,
 
       // Bass instruments and sub-frequencies
