@@ -7,7 +7,7 @@ declare class Task {
 }
 
 function colorize(): void {
-  var task = new Task(function () {
+  const task = new Task(function () {
     const liveSet = new LiveAPI("live_set");
     const count = liveSet.getcount("tracks");
 
@@ -201,7 +201,7 @@ function colorize(): void {
       "no-input": 71,
       broken: 71,
       tape: 71,
-      vinyl: 71
+      vinyl: 71,
     };
 
     for (let i = 0; i < count; i++) {
@@ -249,7 +249,7 @@ function colorize(): void {
 }
 
 // Automatically trigger colorization once the device is initialized
-var thisDevice = new LiveAPI("this_device");
+const thisDevice = new LiveAPI("this_device");
 thisDevice.call("store_chains"); // force initialization
 defer(() => {
   colorize();
