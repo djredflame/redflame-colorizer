@@ -8,13 +8,46 @@ Redflame Colorizer is a minimal and powerful Max for Live device for Ableton Liv
 
 When you drop the device into your Live Set, it immediately scans all existing tracks and clips, and applies a color scheme based on their names. For example:
 
-- `kick`, `snare`, `perc` → red
-- `bass`, `sub` → green
-- `synth`, `lead` → blue
-- `piano`, `keys` → white
-- `guitar`, `cello`, `violin` → brown
-- `vocal`, `voice` → orange
-- `fx`, `sfx`, `risers` → dark gray
+```
+- 🥁 Drums & Percussion → Red
+  `kick`, `snare`, `hihat`, `perc-low`, `clap`, `tambourine`, `cowbell`, `rimshot`, `snap`, `sticks`, `kick drum`, `snare drum`
+
+- 🎸 Plucked Strings → Sand Brown
+  `guitar`, `harp`, `acoustic`, `electric guitar`, `nylon`, `slide`
+
+- 🎻 Bowed Strings → Orange
+  `violin`, `cello`, `viola`, `strings`, `orchestra`, `solo strings`
+
+- 🎹 Keys & Pianos → Pink-Violet
+  `piano`, `ep`, `keys`, `organ`, `clav`, `toy piano`, `synth keys`, `upright piano`, `harpsichord`
+
+- 🌫 Pads & Atmosphere → Pink
+  `pad`, `ambient`, `drone`, `background`, `warm pad`, `space pad`
+
+- 🎚 Leads & Synths → Indigo Blue
+  `lead`, `synth`, `arp`, `melody`, `mono`, `acid`, `saw`, `square`, `brass lead`
+
+- 🔊 Bass & Sub → Neon Green
+  `bass`, `sub`, `808`, `reese`, `bassline`, `electric bass`, `synth bass`, `fm bass`
+
+- 🗣 Vocals → Signal Orange
+  `vocal`, `voice`, `vox`, `rap`, `spoken`, `vocoder`, `male`, `female`
+
+- 🎧 FX & Risers → Dark Gray
+  `fx`, `sfx`, `riser`, `impact`, `sweep`, `fall`, `laser`, `reverse`, `mod fx`
+
+- 🔔 Bells & Mallets → Magenta
+  `bell`, `mallet`, `kalimba`, `music box`, `celesta`
+
+- 🎷 Brass & Winds → Yellow-Green
+  `brass`, `sax`, `horn`, `trumpet`, `tuba`, `clarinet`, `pipes`, `whistle`
+
+- 🌍 World Instruments → Pastel Green
+  `sitar`, `tabla`, `bongo`, `djembe`, `hang drum`, `balafon`, `oud`
+
+- 🧪 Experimental → Anthracite
+  `noise`, `granular`, `morph`, `resample`, `tape`, `vinyl`, `fx bus`, `glitch vox`
+```
 
 Both tracks and clips (in Session View) will be colorized.
 
